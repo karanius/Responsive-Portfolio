@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+    overflow: hidden;
+}
+
+
+
+.logo{
+    background-color: #5aaaa5;
+    line-height: 80px;
+    padding: 0 20px;
+    margin-left:10%;
+    transition: box-shadow 0.4s;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.logo:hover {
+    box-shadow: 0px -1px 2000px 6px black;
+}
+
+
+
+.divider{
+    width: 2px;
+    height: 20px;
+    background: rgba(128, 128, 128, 0.295);
+}
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 12%;
+    margin-top:8px;
+}
+
+.yellow{
+    color:yellowgreen;
+}
+
+.links{
+    display: flex;
+    justify-content: end;
+    justify-content: flex-end;
+}
+
+.middle{
+
+    background: url(/everything/image/background.png);
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    min-height: 100%;
+}
+
+.midBody{
+    margin: 0 10%;
+    background: white;
+    padding-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    margin-bottom: 120px;
+}
+
+.clearfix::After {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+.header{
+    font-size: 25px;
+    color: #5aaaa5;
+    margin: 0 15px;
+    
+    
+}
+
+.divi{
+    background-color: rgba(128, 128, 128, 0.527);
+    height: 2px;
+    width: 90%;
+    margin-left: 25px;
+    margin-top:10px;
+
+}
+
+.header{
+    margin-top:20px;
+    margin-left:15px;
+}
+
+.pic{
+    margin-top: 15px;
+    margin-left: 23px;
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.bod .txt{
+    color: black;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+
+
+.sticky{
+    border-top: 4px solid #5aaaa5;
+    background-color: #666666;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin-right: 4%;
+}
+
+.msg{
+    resize: none;
+}
+
+.btn-col{
+    background-color: #5aaaa5;
+}
+
+.btn-col:hover{
+    background-color: #5aaaa571;
+}
+
+
+
+
+@media (max-width: 576px) { 
+
+    .links{
+        margin-left:20px;
+        margin-right: 20px;
+        border-top:2px solid #5aaaa57c;
+        border-bottom:2px solid #5aaaa5;
+    }
+
+}
